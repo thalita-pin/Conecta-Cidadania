@@ -1,6 +1,6 @@
 # Conecta Cidadania — Tecnologia para Todos
 
-**Site educativo do Projeto 4 de Extensão Universitária**  
+**Site educativo do Projeto de Extensão Universitária**  
 **Curso:** Análise e Desenvolvimento de Sistemas (ADS)  
 **Instituição:** Cruzeiro do Sul Virtual  
 **Comunidade de referência:** Colégio Estadual Professora Dirce Celestino do Amaral — Curitiba/PR  
@@ -11,7 +11,7 @@
 
 O **Conecta Cidadania** é um site educativo desenvolvido para apoiar a inclusão digital e facilitar o acesso a informações sobre serviços públicos disponíveis na internet. A proposta surgiu da investigação de dificuldades que podem ocorrer mesmo entre pessoas habituadas a usar celulares, como localizar serviços governamentais, compreender orientações de portais públicos e preencher formulários on-line.
 
-O projeto busca fortalecer a autonomia dos estudantes no uso de recursos digitais relacionados ao exercício da cidadania. Seu foco é **acesso aos serviços públicos digitais**, e não a segurança na internet, temática trabalhada em outro projeto de extensão.
+O projeto busca fortalecer a autonomia dos estudantes no uso de recursos digitais relacionados ao exercício da cidadania. Seu foco é **acesso aos serviços públicos digitais**.
 
 ## 2. Objetivo e público-alvo
 
