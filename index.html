@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b3854">
+  <meta name="description"
+    content="Tutoriais gratuitos sobre como encontrar serviços públicos digitais, usar o Gov.br e preencher formulários. Projeto educativo de inclusão digital e cidadania.">
+  <title>Conecta Cidadania | Inclusão Digital e Cidadania</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+  <div class="topline"><span class="topline-dot"></span> Projeto educativo de extensão universitária <span
+      class="topline-separator">•</span> ODS 10: Redução das Desigualdades</div>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#inicio" aria-label="Conecta Cidadania: voltar ao início">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32">
+            <path d="M7 17c0-5 4-9 9-9s9 4 9 9" fill="none" stroke="currentColor" stroke-width="3"
+              stroke-linecap="round" />
+            <circle cx="7" cy="20" r="3" fill="currentColor" />
+            <circle cx="25" cy="20" r="3" fill="currentColor" />
+            <path d="M13 24h6" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+          </svg></span>
+        <span><strong>Conecta<span class="brand-accent">Cidadania</span></strong><small>Tecnologia para
+            todos</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Abrir menu de navegação"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="site-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#tutoriais">Tutoriais</a>
+        <a href="#praticar">Praticar</a>
+        <a href="#questionario">Questionário</a>
+        <a href="#fontes">Fontes e links</a>
+      </nav>
+      <div class="accessibility" aria-label="Acessibilidade">
+        <button type="button" id="font-plus" title="Aumentar letra" aria-label="Aumentar tamanho da letra">A+</button>
+        <button type="button" id="font-reset" title="Restaurar letra" aria-label="Restaurar tamanho da letra">A</button>
+        <button type="button" id="contrast-toggle" title="Alto contraste" aria-pressed="false"
+          aria-label="Alternar alto contraste">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="sparkle" aria-hidden="true">✦</span> APRENDA NO SEU RITMO</p>
+          <h1 id="hero-title">Mais autonomia para <em>acessar seus direitos.</em></h1>
+          <p class="hero-description">Você sabe usar o celular, mas ainda tem dúvidas sobre serviços do governo? Aqui
+            você aprende, passo a passo, a encontrar informações oficiais, consultar serviços e preencher formulários
+            digitais.</p>
+          <div class="hero-actions">
+            <a href="#tutoriais" class="button button-primary">Explorar tutoriais <span aria-hidden="true">↗</span></a>
+            <a href="#questionario" class="button button-ghost">Testar meus conhecimentos <span
+                aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note"><span aria-hidden="true">✓</span> Gratuito <span class="dot-sep">·</span> Sem cadastro
+            <span class="dot-sep">·</span> Feito para celular</div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="hero-deco deco-one" aria-hidden="true"></div>
+          <div class="hero-deco deco-two" aria-hidden="true"></div>
+          <img class="hero-image" src="assets/hero-digital.gif" width="690" height="580"
+            alt="Ilustração educativa de pessoas aprendendo a navegar por serviços digitais em um computador e celular.">
+        </div>
+      </div>
+    </section>
+
+    <section class="summary-strip" aria-label="O que você vai encontrar">
+      <div class="container summary-grid">
+        <div><span class="summary-icon" aria-hidden="true">01</span><span><strong>Passos
+              ilustrados</strong><small>Aprenda com explicações simples</small></span></div>
+        <div><span class="summary-icon" aria-hidden="true">02</span><span><strong>Atividade
+              prática</strong><small>Treine sem usar dados reais</small></span></div>
+        <div><span class="summary-icon" aria-hidden="true">03</span><span><strong>Questionário</strong><small>Confira o
+              que aprendeu</small></span></div>
+      </div>
+    </section>
+
+    <section class="section section-intro" id="sobre" aria-labelledby="sobre-title">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow dark">POR QUE ISSO IMPORTA?</p>
+          <h2 id="sobre-title">Ter internet é importante. <span class="highlight">Saber usar também.</span></h2>
+          <p>Nem sempre é fácil entender os nomes dos serviços, descobrir quais documentos são pedidos ou encontrar a
+            informação certa. O objetivo deste site é transformar essas tarefas em passos mais claros.</p>
+          <p>É uma iniciativa educativa independente, voltada à comunidade escolar, que contribui para o <a
+              href="https://brasil.un.org/pt-br/sdgs/10" target="_blank" rel="noopener noreferrer">ODS 10 — Redução das
+              Desigualdades <span class="sr-only">(abre em nova aba)</span></a>.</p>
+        </div>
+        <aside class="fact-card" aria-label="Informação da pesquisa do IBGE">
+          <span class="fact-label">DADO PARA REFLETIR <span aria-hidden="true">↗</span></span>
+          <strong>41,1<span>%</span></strong>
+          <p>das pessoas que usaram a internet no Brasil em 2025 utilizaram algum serviço público on-line, segundo o
+            IBGE.</p>
+          <small>Fonte: <a
+              href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47408-proporcao-de-usuarios-da-internet-no-pais-ultrapassou-90-da-populacao-de-10-anos-ou-mais-em-2025"
+              target="_blank" rel="noopener noreferrer">PNAD Contínua TIC 2025 <span class="sr-only">(abre em nova
+                aba)</span></a>. Esse número é nacional, não da escola.</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section tutorials-section" id="tutoriais" aria-labelledby="tutorials-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow dark">APRENDA PASSO A PASSO</p>
+            <h2 id="tutorials-title">Escolha por onde começar.</h2>
+            <p>Abra um tutorial, observe a ilustração e siga as orientações. Cada conteúdo inclui o caminho para o
+              serviço oficial.</p>
+          </div>
+          <div class="lesson-count"><span aria-hidden="true">✦</span> 6 tutoriais gratuitos</div>
+        </div>
+        <div class="search-bar"><label for="lesson-search">Encontrar um tutorial</label>
+          <div class="search-input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.8" cy="10.8" r="6.4" />
+              <path d="m16 16 4.4 4.4" />
+            </svg><input type="search" id="lesson-search" placeholder="Ex.: Enem, Gov.br, formulário, saúde..."
+              autocomplete="off"></div>
+          <p id="lesson-search-status" class="search-status" aria-live="polite"></p>
+        </div>
+        <div class="lessons">
+          <details class="lesson" id="tutorial-servicos"
+            data-keywords="portal gov busca servicos publicos categorias documentos requisitos encontrar informações">
+            <summary><img src="assets/busca.svg" width="144" height="112"
+                alt="Ilustração de uma barra de busca de serviços públicos"><span class="lesson-info"><span
+                  class="lesson-tag">COMECE AQUI · 5 MIN</span><strong>Como encontrar um serviço
+                  público</strong><span>Aprenda a pesquisar no portal e identificar as orientações de cada
+                  serviço.</span></span><span class="lesson-toggle" aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <p class="lesson-notice">As imagens são <strong>ilustrações educativas</strong>, não capturas das páginas
+                oficiais. O visual dos portais pode mudar.</p>
+              <ol class="steps">
+                <li><strong>Acesse o portal oficial.</strong> Abra a <a href="https://www.gov.br/pt-br/servicos"
+                    target="_blank" rel="noopener noreferrer">página de serviços Gov.br<span class="sr-only"> (abre em
+                      nova aba)</span></a>.</li>
+                <li><strong>Digite uma palavra-chave.</strong> Por exemplo: “Enem”, “Carteira de Trabalho” ou
+                  “CadÚnico”. Também é possível pesquisar pelas categorias.</li>
+                <li><strong>Abra a página do serviço.</strong> Leia “O que é?”, “Quem pode utilizar” e “Etapas para a
+                  realização deste serviço”.</li>
+                <li><strong>Confira os requisitos.</strong> Veja se são exigidos documentos, prazos, autenticação ou
+                  atendimento presencial.</li>
+                <li><strong>Siga o canal oficial indicado.</strong> Se desejar solicitar o serviço, use o botão ou link
+                  disponível na página e acompanhe as orientações.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Na prática:</strong> experimente pesquisar “Enem” no exercício de busca
+                mais abaixo — sem entrar em nenhuma conta.</div>
+              <a class="text-link" href="https://www.gov.br/pt-br/servicos/buscar-servicos-por/categorias"
+                target="_blank" rel="noopener noreferrer">Ver categorias oficiais de serviços <span
+                  aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </details>
+          <details class="lesson" id="tutorial-conta"
+            data-keywords="conta govbr cpf bronze prata ouro serviços autenticação login cadastro">
+            <summary><img src="assets/conta.svg" width="144" height="112"
+                alt="Ilustração de uma conta digital e identificação"><span class="lesson-info"><span
+                  class="lesson-tag">IDENTIDADE DIGITAL · 4 MIN</span><strong>Para que serve a conta
+                  Gov.br?</strong><span>Entenda como o acesso único funciona e quando a conta é
+                  necessária.</span></span><span class="lesson-toggle" aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <ol class="steps">
+                <li><strong>Entenda a finalidade:</strong> a conta Gov.br permite identificar a pessoa e acessar
+                  diferentes serviços públicos digitais.</li>
+                <li><strong>Consulte a página oficial:</strong> abra <a
+                    href="https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br" target="_blank"
+                    rel="noopener noreferrer">Criar sua conta Gov.br<span class="sr-only"> (abre em nova aba)</span></a>
+                  e leia quem pode utilizar o serviço.</li>
+                <li><strong>Conheça os níveis:</strong> existem contas bronze, prata e ouro. Alguns serviços exigem
+                  níveis de validação mais altos; consulte a exigência antes de começar.</li>
+                <li><strong>Faça apenas quando necessário:</strong> para esta aula, não é preciso criar uma conta nem
+                  informar CPF ou senha.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Para saber mais:</strong> leia a explicação oficial sobre os <a
+                  href="https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br/niveis-da-conta-govbr"
+                  target="_blank" rel="noopener noreferrer">níveis da conta Gov.br<span class="sr-only"> (abre em nova
+                    aba)</span></a>.</div>
+            </div>
+          </details>
+          <details class="lesson" id="tutorial-enem"
+            data-keywords="enem educação ensino medio estudantes prova inscrição inep exame nacional educacao">
+            <summary><img src="assets/enem.svg" width="144" height="112"
+                alt="Ilustração de caderno escolar e símbolo de conclusão de estudos"><span class="lesson-info"><span
+                  class="lesson-tag">EDUCAÇÃO · 4 MIN</span><strong>Onde encontrar informações sobre o
+                  Enem</strong><span>Saiba como consultar requisitos, etapas e comunicados oficiais.</span></span><span
+                class="lesson-toggle" aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <ol class="steps">
+                <li><strong>Acesse a página oficial:</strong> visite o serviço <a
+                    href="https://www.gov.br/pt-br/servicos/fazer-o-exame-nacional-do-ensino-medio" target="_blank"
+                    rel="noopener noreferrer">Fazer o Enem<span class="sr-only"> (abre em nova aba)</span></a>.</li>
+                <li><strong>Leia a descrição:</strong> entenda para que serve o exame e quem pode participar.</li>
+                <li><strong>Consulte as orientações atuais:</strong> informações como inscrição, datas, taxa e isenção
+                  dependem do edital de cada edição.</li>
+                <li><strong>Acesse o canal indicado:</strong> a página oficial aponta os meios para obter mais
+                  informações e realizar etapas, quando disponíveis.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Atenção:</strong> este site não realiza inscrições. Confira sempre o
+                edital do ano desejado nos canais oficiais do Inep.</div>
+              <a class="text-link"
+                href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"
+                target="_blank" rel="noopener noreferrer">Conhecer a página oficial do Enem (Inep) <span
+                  aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a>
+            </div>
+          </details>
+          <details class="lesson" id="tutorial-trabalho"
+            data-keywords="carteira trabalho digital emprego contratos vínculos direitos documentos trabalhador">
+            <summary><img src="assets/trabalho.svg" width="144" height="112"
+                alt="Ilustração de uma carteira digital de trabalho"><span class="lesson-info"><span
+                  class="lesson-tag">TRABALHO · 4 MIN</span><strong>Como conhecer a Carteira de Trabalho
+                  Digital</strong><span>Descubra onde consultar informações profissionais quando
+                  necessário.</span></span><span class="lesson-toggle" aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <ol class="steps">
+                <li><strong>Encontre o serviço:</strong> acesse <a
+                    href="https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho" target="_blank"
+                    rel="noopener noreferrer">Obter a Carteira de Trabalho<span class="sr-only"> (abre em nova
+                      aba)</span></a>.</li>
+                <li><strong>Leia quem pode utilizar:</strong> a página informa o público do serviço e os requisitos.
+                </li>
+                <li><strong>Veja os canais:</strong> a Carteira de Trabalho Digital pode ser acessada por aplicativo ou
+                  pela web, com autenticação Gov.br.</li>
+                <li><strong>Saiba o que é possível consultar:</strong> a ferramenta reúne informações profissionais e
+                  vínculos registrados, quando houver.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Importante:</strong> estudantes podem conhecer o serviço sem fazer login.
+                Algumas informações só aparecem na conta do próprio titular.</div>
+            </div>
+          </details>
+          <details class="lesson" id="tutorial-saude"
+            data-keywords="meu sus digital saúde documentos informações atendimento cidadão ministério saude">
+            <summary><img src="assets/saude.svg" width="144" height="112"
+                alt="Ilustração de tela com informações de saúde digital"><span class="lesson-info"><span
+                  class="lesson-tag">SAÚDE · 4 MIN</span><strong>O que é o Meu SUS Digital</strong><span>Conheça uma
+                  plataforma pública de informações em saúde.</span></span><span class="lesson-toggle"
+                aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <ol class="steps">
+                <li><strong>Conheça o serviço:</strong> leia a <a
+                    href="https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao/1-o-que-e-o"
+                    target="_blank" rel="noopener noreferrer">explicação oficial do Ministério da Saúde<span
+                      class="sr-only"> (abre em nova aba)</span></a>.</li>
+                <li><strong>Entenda a finalidade:</strong> a plataforma reúne informações e documentos de saúde
+                  disponíveis nos sistemas integrados ao SUS.</li>
+                <li><strong>Veja as formas de acesso:</strong> há aplicativo e versão para navegador, com entrada pela
+                  conta Gov.br.</li>
+                <li><strong>Confira o que está disponível:</strong> as informações exibidas dependem dos registros
+                  existentes nos sistemas integrados.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Para a aula:</strong> basta conhecer a página informativa; não peça aos
+                estudantes que mostrem dados de saúde ou façam login.</div>
+            </div>
+          </details>
+          <details class="lesson" id="tutorial-formulario"
+            data-keywords="formulario online preenchimento cadastro solicitação campos obrigatorios conferir enviar simular prática">
+            <summary><img src="assets/formulario.svg" width="144" height="112"
+                alt="Ilustração de formulário digital com campos de preenchimento"><span class="lesson-info"><span
+                  class="lesson-tag">HABILIDADE PRÁTICA · 5 MIN</span><strong>Como preencher um formulário
+                  on-line</strong><span>Conheça os campos comuns e pratique usando informações
+                  inventadas.</span></span><span class="lesson-toggle" aria-hidden="true">+</span></summary>
+            <div class="lesson-body">
+              <ol class="steps">
+                <li><strong>Leia a finalidade:</strong> descubra para que serve o formulário antes de começar.</li>
+                <li><strong>Identifique os campos obrigatórios:</strong> geralmente são marcados com asterisco (*) ou
+                  descritos como obrigatórios.</li>
+                <li><strong>Preencha com atenção:</strong> em formulários reais, siga as instruções e use os dados
+                  exigidos somente no canal correto.</li>
+                <li><strong>Revise:</strong> confira escolhas, informações e documentos antes de enviar.</li>
+                <li><strong>Guarde o comprovante:</strong> se o serviço fornecer um número de protocolo, anote ou salve
+                  para acompanhamento.</li>
+              </ol>
+              <div class="lesson-tip"><strong>Treine com tranquilidade:</strong> abaixo há um formulário de exercício
+                que <em>não envia e não salva</em> nenhuma informação.</div>
+              <a class="text-link" href="#form-practice">Ir para o formulário de treino <span
+                  aria-hidden="true">↓</span></a>
+            </div>
+          </details>
+        </div>
+        <div class="empty-state" id="lesson-empty" hidden>Nenhum tutorial corresponde à sua pesquisa. Tente outra
+          palavra, como “Gov.br” ou “Enem”.</div>
+      </div>
+    </section>
+
+    <section class="section practice-section" id="praticar" aria-labelledby="practice-title">
+      <div class="container">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow dark">MÃO NA MASSA</p>
+            <h2 id="practice-title">Agora é sua vez de praticar.</h2>
+            <p>Dois exercícios sem login e sem coleta de dados pessoais.</p>
+          </div>
+        </div>
+        <div class="practice-grid">
+          <article class="practice-card">
+            <div class="practice-heading"><span class="practice-number">01</span>
+              <div>
+                <h3>Encontre um serviço</h3>
+                <p>Pesquise em uma lista de exemplos e descubra para onde ir.</p>
+              </div>
+            </div>
+            <form id="service-search-form" class="service-search-form"><label for="service-term">Qual assunto você
+                procura?</label>
+              <div class="search-inline"><input id="service-term" type="search"
+                  placeholder="Digite saúde, trabalho, Enem..." autocomplete="off"><button type="submit"
+                  class="button button-primary">Buscar</button></div>
+            </form>
+            <div id="service-results" class="service-results" aria-live="polite">
+              <p class="muted">Experimente palavras como “educação”, “carteira” ou “SUS”.</p>
+            </div>
+          </article>
+          <article class="practice-card" id="form-practice">
+            <div class="practice-heading"><span class="practice-number">02</span>
+              <div>
+                <h3>Treine um formulário</h3>
+                <p>Exemplo fictício de inscrição em uma oficina escolar.</p>
+              </div>
+            </div>
+            <div class="simulated-label">SIMULAÇÃO EDUCATIVA · NÃO É UMA INSCRIÇÃO REAL</div>
+            <form id="practice-form" novalidate>
+              <div class="field"><label for="fictional-name">Nome fictício <span
+                    aria-hidden="true">*</span></label><input id="fictional-name" name="fictional-name" type="text"
+                  maxlength="60" placeholder="Ex.: Ana Exemplo" required autocomplete="off"><small>Use um nome
+                  inventado. Não digite dados verdadeiros.</small></div>
+              <div class="field"><label for="fictional-class">Turma fictícia <span
+                    aria-hidden="true">*</span></label><select id="fictional-class" name="fictional-class" required>
+                  <option value="">Selecione uma opção</option>
+                  <option value="Ensino Fundamental II">Ensino Fundamental II</option>
+                  <option value="Ensino Médio">Ensino Médio</option>
+                </select></div>
+              <div class="field"><label for="fictional-topic">Assunto de interesse <span
+                    aria-hidden="true">*</span></label><select id="fictional-topic" name="fictional-topic" required>
+                  <option value="">Selecione uma opção</option>
+                  <option value="Encontrar serviços públicos">Encontrar serviços públicos</option>
+                  <option value="Conhecer o Gov.br">Conhecer o Gov.br</option>
+                  <option value="Preencher formulários">Preencher formulários</option>
+                </select></div>
+              <label class="check-line"><input id="fictional-confirm" type="checkbox" required><span>Entendi que esta é
+                  uma simulação, sem envio de informações.</span></label>
+              <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+              <button type="submit" class="button button-primary full-width">Conferir preenchimento <span
+                  aria-hidden="true">✓</span></button>
+              <button type="reset" class="subtle-button">Limpar exercício</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="questionario" aria-labelledby="quiz-title">
+      <div class="container quiz-layout">
+        <div class="quiz-sidebar">
+          <p class="eyebrow dark">DESAFIO FINAL</p>
+          <h2 id="quiz-title">O que você aprendeu?</h2>
+          <p>Responda a <strong>10 perguntas</strong> sobre o uso de serviços públicos digitais. No final, você verá sua
+            pontuação e uma explicação de cada resposta.</p>
+          <div class="quiz-illustration" aria-hidden="true"><span>✎</span><span>✓</span><span>?</span></div>
+          <div class="quiz-privacy"><strong>Seus dados ficam com você.</strong><br>Não pedimos nome, CPF ou e-mail.
+            Nenhuma resposta é enviada para um servidor.</div>
+        </div>
+        <div class="quiz-panel" id="quiz-panel">
+          <div class="quiz-top"><span class="quiz-pill">QUESTIONÁRIO</span><span id="quiz-progress-label">Pergunta 1 de
+              10</span></div>
+          <div class="progress-track" role="progressbar" id="quiz-progress" aria-label="Progresso do questionário"
+            aria-valuemin="0" aria-valuemax="10" aria-valuenow="0"><span id="quiz-progress-fill"></span></div>
+          <div id="quiz-question-area" aria-live="polite"></div>
+          <div id="quiz-feedback" role="status" aria-live="polite"></div>
+          <div class="quiz-actions"><button type="button" class="button button-primary" id="quiz-next" disabled>Conferir
+              resposta <span aria-hidden="true">→</span></button><button type="button" id="quiz-restart"
+              class="subtle-button" hidden>Recomeçar questionário</button></div>
+          <div class="quiz-local-note" id="quiz-local-note"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sources-section" id="fontes" aria-labelledby="sources-title">
+      <div class="container">
+        <p class="eyebrow dark">PESQUISE COM AUTONOMIA</p>
+        <h2 id="sources-title">Fontes e onde saber mais.</h2>
+        <p class="sources-intro">Use sempre os canais oficiais para consultar regras e prazos. Os links a seguir foram
+          reunidos para apoiar os tutoriais e a pesquisa acadêmica.</p>
+        <div class="sources-grid">
+          <div class="source-box">
+            <h3><span class="source-box-icon" aria-hidden="true">↗</span> Onde acessar os serviços</h3>
+            <ul class="link-list">
+              <li><a href="https://www.gov.br/pt-br/servicos" target="_blank" rel="noopener noreferrer">Portal Gov.br —
+                  serviços públicos <span aria-hidden="true">↗</span></a><small>Pesquise serviços e leia os
+                  requisitos.</small></li>
+              <li><a href="https://www.gov.br/pt-br/servicos/criar-sua-conta-gov.br" target="_blank"
+                  rel="noopener noreferrer">Criar conta Gov.br <span aria-hidden="true">↗</span></a><small>Instruções
+                  oficiais de acesso.</small></li>
+              <li><a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem"
+                  target="_blank" rel="noopener noreferrer">Inep — Enem <span
+                    aria-hidden="true">↗</span></a><small>Editais e orientações do exame.</small></li>
+              <li><a href="https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho" target="_blank"
+                  rel="noopener noreferrer">Carteira de Trabalho Digital <span
+                    aria-hidden="true">↗</span></a><small>Requisitos, aplicativo e acesso pela web.</small></li>
+              <li><a
+                  href="https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao/1-o-que-e-o"
+                  target="_blank" rel="noopener noreferrer">Meu SUS Digital <span
+                    aria-hidden="true">↗</span></a><small>Informações do Ministério da Saúde.</small></li>
+              <li><a
+                  href="https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/perguntas-frequentes-cadastro-unico"
+                  target="_blank" rel="noopener noreferrer">Cadastro Único — perguntas frequentes <span
+                    aria-hidden="true">↗</span></a><small>Orientações para cidadãos e famílias.</small></li>
+            </ul>
+          </div>
+          <div class="source-box">
+            <h3><span class="source-box-icon" aria-hidden="true">▤</span> Referências da pesquisa</h3>
+            <ol class="reference-list">
+              <li><a
+                  href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47408-proporcao-de-usuarios-da-internet-no-pais-ultrapassou-90-da-populacao-de-10-anos-ou-mais-em-2025"
+                  target="_blank" rel="noopener noreferrer">IBGE — PNAD Contínua TIC 2025</a> (notícia, 02 jul. 2026).
+                Acesso e utilização da internet no Brasil.</li>
+              <li><a href="https://www.cetic.br/pt/pesquisa/educacao/publicacoes/" target="_blank"
+                  rel="noopener noreferrer">NIC.br/Cetic.br — TIC Educação 2024</a> (publicação, 2025). Uso das
+                tecnologias nas escolas brasileiras.</li>
+              <li><a href="https://doi.org/10.18623/rvd.v23.6139" target="_blank" rel="noopener noreferrer">PAES;
+                  OLIVEIRA (2026)</a>. <em>Desafios sociais para implantação do governo digital no Brasil.</em> Veredas
+                do Direito, 23(7), e236139.</li>
+              <li><a href="https://doi.org/10.31501/comunicologia.v12i2.10900" target="_blank"
+                  rel="noopener noreferrer">MESQUITA (2020)</a>. <em>A evolução do governo eletrônico no Brasil e a
+                  contribuição das TIC...</em> Comunicologia, 12(2), 174–195.</li>
+              <li><a href="https://www.gov.br/pt-br/guia-de-edicao-de-servicos-do-gov.br" target="_blank"
+                  rel="noopener noreferrer">BRASIL — Guia de Edição de Serviços do Portal Gov.br</a> (s.d.). Clareza e
+                linguagem simples.</li>
+              <li><a
+                  href="https://www.observatoriodaimprensa.com.br/comunicacao-publica/barreiras-ao-cidadao-expoem-as-falhas-das-plataformas-gov-br/"
+                  target="_blank" rel="noopener noreferrer">FARIA (2026)</a>. <em>Barreiras ao cidadão expõem as falhas
+                  das plataformas gov.br.</em> Observatório da Imprensa. <strong>Texto analítico/opinativo.</strong>
+              </li>
+              <li><a href="https://www.gov.br/mcom/pt-br/acesso-a-informacao/dados-abertos/bases-abertas"
+                  target="_blank" rel="noopener noreferrer">BRASIL — Ministério das Comunicações: Bases Abertas/Cidades
+                  Digitais</a> (atualizada em 2026). Iniciativas de inclusão digital.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="source-footnote"><strong>Também relacionado:</strong> <a href="https://brasil.un.org/pt-br/sdgs/10"
+            target="_blank" rel="noopener noreferrer">ONU Brasil — ODS 10: Redução das Desigualdades <span
+              aria-hidden="true">↗</span></a>. <span>Links consultados em novembro de 2026. Regras e interfaces de
+            serviços podem mudar.</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#inicio"><span class="brand-mark"
+            aria-hidden="true">✦</span><span><strong>Conecta<span
+                class="brand-accent">Cidadania</span></strong><small>Tecnologia para todos</small></span></a>
+        <p>Projeto de extensão universitária — Curso de Análise e Desenvolvimento de Sistemas, Cruzeiro do Sul Virtual.
+        </p>
+      </div>
+      <div><strong>Comunidade de referência</strong>
+        <p>Colégio Estadual Professora Dirce Celestino do Amaral · Curitiba/PR.</p>
+        <p class="footer-disclaimer">Material educativo independente. Não é um site oficial do governo nem substitui os
+          portais de atendimento.</p>
+      </div><a href="#inicio" class="back-top">Voltar ao topo ↑</a>
+    </div>
+    <div class="container copyright">Feito para aprender, compartilhar e ampliar o acesso à cidadania. © 2026</div>
+  </footer>
+</body>
+
+</html>
